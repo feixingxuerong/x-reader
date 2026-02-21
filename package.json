@@ -1,0 +1,23 @@
+{
+  "name": "x-reader",
+  "version": "1.0.0",
+  "description": "X/Twitter 内容阅读器 - 嵌入 Discord + 保存 Markdown",
+  "main": "fetch.py",
+  "dependencies": {
+    "requests": ">=2.28.0",
+    "beautifulsoup4": ">=4.11.0"
+  },
+  "scripts": {
+    "fetch": "python3 fetch.py",
+    "embed": "python3 fetch.py --embed --url"
+  },
+  "keywords": [
+    "twitter",
+    "x",
+    "discord",
+    "embed",
+    "markdown"
+  ],
+  "author": "",
+  "license": "MIT"
+}
