@@ -1,0 +1,58 @@
+{
+  "code": 200,
+  "message": "OK",
+  "tweet": {
+    "url": "https://x.com/0xLuki/status/2018961739182981542",
+    "id": "2018961739182981542",
+    "text": "我宣布 @GeniusTerminal 就是最屌的，给了将近20w分的GP，一算盈亏比，比第二周都划算",
+    "raw_text": {
+      "text": "我宣布 @GeniusTerminal 就是最屌的，给了将近20w分的GP，一算盈亏比，比第二周都划算",
+      "facets": [
+        {
+          "type": "mention",
+          "indices": [
+            4,
+            19
+          ],
+          "original": "GeniusTerminal",
+          "id": "1236460732486692864"
+        }
+      ]
+    },
+    "author": {
+      "id": "1377828474056929280",
+      "name": "青涩小猫⸅◟_◞⸅",
+      "screen_name": "0xLuki",
+      "avatar_url": "https://pbs.twimg.com/profile_images/1866511417706467328/x9GBq_-O_200x200.jpg",
+      "banner_url": "https://pbs.twimg.com/profile_banners/1377828474056929280/1728726116",
+      "description": "🥄 MEME Cook | 💻 Frontend Developer | 🏆 ETH Hackathon | 💎 Inv @wagmi_vc",
+      "location": "Web3",
+      "url": "https://x.com/0xLuki",
+      "followers": 1888,
+      "following": 1574,
+      "joined": "Fri Apr 02 03:41:40 +0000 2021",
+      "likes": 828,
+      "media_count": 97,
+      "protected": false,
+      "website": null,
+      "tweets": 716,
+      "avatar_color": null
+    },
+    "replies": 0,
+    "retweets": 0,
+    "likes": 1,
+    "bookmarks": 0,
+    "created_at": "Wed Feb 04 08:16:03 +0000 2026",
+    "created_timestamp": 1770192963,
+    "views": 98,
+    "is_note_tweet": false,
+    "community_note": null,
+    "lang": "zh",
+    "replying_to": null,
+    "replying_to_status": null,
+    "source": "Twitter Web App",
+    "twitter_card": "tweet",
+    "color": null,
+    "provider": "twitter"
+  }
+}

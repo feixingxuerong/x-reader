@@ -1,0 +1,2472 @@
+{
+  "code": 200,
+  "message": "OK",
+  "tweet": {
+    "url": "https://x.com/onenewbite/status/2024819940327379286",
+    "id": "2024819940327379286",
+    "text": "",
+    "raw_text": {
+      "text": "https://t.co/9UyWBtBMdt",
+      "facets": []
+    },
+    "author": {
+      "id": "1453346363215810560",
+      "name": "一口新饭",
+      "screen_name": "onenewbite",
+      "avatar_url": "https://pbs.twimg.com/profile_images/1585995910521446400/OXrx3eAV_200x200.jpg",
+      "banner_url": "https://pbs.twimg.com/profile_banners/1453346363215810560/1635806355",
+      "description": "关注科技, 投资, 和个人成长. YouTube: MoneyXYZ 社群:",
+      "location": "Calgary, Alberta",
+      "url": "https://x.com/onenewbite",
+      "followers": 40060,
+      "following": 488,
+      "joined": "Wed Oct 27 13:02:43 +0000 2021",
+      "likes": 4816,
+      "media_count": 644,
+      "protected": false,
+      "website": {
+        "url": "https://www.youtube.com/@moneyxyz",
+        "display_url": "youtube.com/@moneyxyz"
+      },
+      "tweets": 3816,
+      "avatar_color": null
+    },
+    "replies": 21,
+    "retweets": 285,
+    "likes": 1175,
+    "bookmarks": 2442,
+    "created_at": "Fri Feb 20 12:14:27 +0000 2026",
+    "created_timestamp": 1771589667,
+    "possibly_sensitive": false,
+    "views": 95595,
+    "is_note_tweet": false,
+    "community_note": null,
+    "lang": null,
+    "replying_to": null,
+    "replying_to_status": null,
+    "source": "Twitter Web App",
+    "article": {
+      "created_at": "2026-02-20T12:14:27.000Z",
+      "modified_at": "2026-02-20T12:14:27.000Z",
+      "id": "2024814801235607552",
+      "title": "为什么你的 OpenClaw 一定要安装 NotebookLM Skill",
+      "preview_text": "给 NotebookLM 超能力，然后让 NotebookLM 反过来给你的 OpenClaw 超能力\n懒人版：你可以直接把这整篇文章扔给你的 OpenClaw，让它帮你安装 NotebookLM",
+      "cover_media": {
+        "id": "QVBJTWVkaWE6DAAFCgABHBmaCcvaUAAKAAIUK1LRMxWQAAAA",
+        "media_id": "2024818874345213952",
+        "media_info": {
+          "__typename": "ApiImage",
+          "color_info": {
+            "palette": [
+              {
+                "percentage": 46.65,
+                "rgb": {
+                  "blue": 209,
+                  "green": 212,
+                  "red": 210
+                }
+              },
+              {
+                "percentage": 36.11,
+                "rgb": {
+                  "blue": 114,
+                  "green": 117,
+                  "red": 116
+                }
+              },
+              {
+                "percentage": 28.19,
+                "rgb": {
+                  "blue": 46,
+                  "green": 49,
+                  "red": 47
+                }
+              }
+            ]
+          },
+          "original_img_height": 1000,
+          "original_img_url": "https://pbs.twimg.com/media/HBmaCcvaUAAykAg.jpg",
+          "original_img_width": 2500
+        },
+        "media_key": "3_2024818874345213952"
+      },
+      "content": {
+        "blocks": [
+          {
+            "data": {},
+            "entityRanges": [],
+            "inlineStyleRanges": [],
+            "key": "9gcmc",
+            "text": "给 NotebookLM 超能力，然后让 NotebookLM 反过来给你的 OpenClaw 超能力",
+            "type": "header-one"
+          },
+          {
+            "data": {},
+            "entityRanges": [],
+            "inlineStyleRanges": [
+              {
+                "length": 4,
+                "offset": 0,
+                "style": "Bold"
+              }
+            ],
+            "key": "7uhhc",
+            "text": "懒人版：你可以直接把这整篇文章扔给你的 OpenClaw，让它帮你安装 NotebookLM skill、完成验证、并告诉你它能帮你做什么。你唯一需要做的事情就是在它打开浏览器的时候，登录你的 Google 账号完成授权。",
+            "type": "unstyled"
+          },
+          {
+            "data": {},
+            "entityRanges": [],
+            "inlineStyleRanges": [],
+            "key": "ef44v",
+            "text": "开场：我替 NotebookLM 解决了它最烦人的问题",
+            "type": "header-two"
+          },
+          {
+            "data": {},
+            "entityRanges": [],
+            "inlineStyleRanges": [],
+            "key": "952me",
+            "text": "先聊一个我最近遇到的场景。",
+            "type": "unstyled"
+          },
+          {
+            "data": {
+              "urls": [
+                {
+                  "fromIndex": 15,
+                  "text": "docs.openclaw.ai",
+                  "toIndex": 31
+                }
+              ]
+            },
+            "entityRanges": [],
+            "inlineStyleRanges": [],
+            "key": "17p62",
+            "text": "我想系统学 OpenClaw。docs.openclaw.ai 一共 524 个页面，手动去翻会非常低效。我更想做的是把这些内容全部喂给 NotebookLM，让它帮我消化。",
+            "type": "unstyled"
+          },
+          {
+            "data": {},
+            "entityRanges": [],
+            "inlineStyleRanges": [],
+            "key": "dorkg",
+            "text": "但问题来了：我得先把这 524 个页面导进去？然后发现英文和中文翻译版内容重复了，再一个个手动清理？清理完了也不确定有没有漏掉几篇？",
+            "type": "unstyled"
+          },
+          {
+            "data": {},
+            "entityRanges": [],
+            "inlineStyleRanges": [],
+            "key": "2noq4",
+            "text": "光是想想就累了。",
+            "type": "unstyled"
+          },
+          {
+            "data": {},
+            "entityRanges": [],
+            "inlineStyleRanges": [],
+            "key": "7np12",
+            "text": "后来我换了一种方式：让 OpenClaw 来操作 NotebookLM。",
+            "type": "unstyled"
+          },
+          {
+            "data": {},
+            "entityRanges": [],
+            "inlineStyleRanges": [],
+            "key": "23tqc",
+            "text": "我跟它说了想做的事，然后去忙别的了。等我回来一看，它自动抓取了 sitemap、逐条导入、清洗去重、审计完整性。结果：",
+            "type": "unstyled"
+          },
+          {
+            "data": {},
+            "entityRanges": [],
+            "inlineStyleRanges": [
+              {
+                "length": 51,
+                "offset": 0,
+                "style": "Bold"
+              }
+            ],
+            "key": "9teg4",
+            "text": "269 个干净 source，missing = 0，extra = 0，duplicate = 0。",
+            "type": "blockquote"
+          },
+          {
+            "data": {},
+            "entityRanges": [],
+            "inlineStyleRanges": [],
+            "key": "fpca0",
+            "text": "那一刻我意识到：我不是在\"学工具\"。我是在搭一个可以反复使用的知识系统。",
+            "type": "unstyled"
+          },
+          {
+            "data": {},
+            "entityRanges": [],
+            "inlineStyleRanges": [],
+            "key": "3h67i",
+            "text": "这篇文章我会先带你看 NotebookLM 现在到底有多强，然后拆解它最大的痛点在哪，再展示 OpenClaw 是如何用\"AI 指挥 AI\"的方式彻底解决这个问题的，并给你大量可复制的用法和场景。如果你坚持读到最后，你会发现一个更有意思的方向：怎么反过来让 NotebookLM 给你的 OpenClaw 超能力。我相信这篇文章一定能给你非常多的灵感。",
+            "type": "unstyled"
+          },
+          {
+            "data": {
+              "urls": [
+                {
+                  "fromIndex": 197,
+                  "text": "pathunfold.com/free/ray",
+                  "toIndex": 220
+                },
+                {
+                  "fromIndex": 243,
+                  "text": "pathunfold.com/ray",
+                  "toIndex": 261
+                }
+              ]
+            },
+            "entityRanges": [
+              {
+                "key": 0,
+                "length": 23,
+                "offset": 197
+              },
+              {
+                "key": 1,
+                "length": 18,
+                "offset": 243
+              }
+            ],
+            "inlineStyleRanges": [
+              {
+                "length": 4,
+                "offset": 0,
+                "style": "Bold"
+              }
+            ],
+            "key": "ausa3",
+            "text": "P.S. 如果你对 OpenClaw 感兴趣，或者想通过认真研究 Vibe Coding 来为自己创造价值，欢迎加入我们超过 2000 人、来自世界各地不同背景的「用 AI 发电」社群。我们有免费的 OpenClaw 讨论专区，也有付费的涵盖 OpenClaw、Vibe Coding、Agentic AI 等前沿 AI 技术的深度课程和实战训练。\n\n• 加入免费 OpenClaw 社群空间：pathunfold.com/free/ray\n• 订阅「用 AI 发电」课程（专属折扣）：pathunfold.com/ray",
+            "type": "unstyled"
+          },
+          {
+            "data": {},
+            "entityRanges": [],
+            "inlineStyleRanges": [],
+            "key": "1d8kd",
+            "text": "第一章：先聊 NotebookLM 本身有多强",
+            "type": "header-two"
+          },
+          {
+            "data": {},
+            "entityRanges": [],
+            "inlineStyleRanges": [],
+            "key": "70q9i",
+            "text": "在讲 OpenClaw 怎么跟它配合之前，有必要先说一下 NotebookLM 自己的能力。很多人可能用过，但不一定知道它现在已经进化到了什么程度。",
+            "type": "unstyled"
+          },
+          {
+            "data": {},
+            "entityRanges": [],
+            "inlineStyleRanges": [
+              {
+                "length": 15,
+                "offset": 52,
+                "style": "Bold"
+              }
+            ],
+            "key": "9f5m",
+            "text": "NotebookLM 是 Google AI 团队的明星产品，底层用的是 Gemini。它的核心理念是 source-grounded，所有输出都基于你提供的资料，不编造、不瞎猜。",
+            "type": "unstyled"
+          },
+          {
+            "data": {},
+            "entityRanges": [],
+            "inlineStyleRanges": [],
+            "key": "4pbje",
+            "text": "但它不只是一个\"基于文档回答问题\"的工具。它现在能做的事情远超大多数人的想象：",
+            "type": "unstyled"
+          },
+          {
+            "data": {},
+            "entityRanges": [],
+            "inlineStyleRanges": [],
+            "key": "ei094",
+            "text": "研究和交互能力",
+            "type": "unstyled"
+          },
+          {
+            "data": {},
+            "entityRanges": [],
+            "inlineStyleRanges": [
+              {
+                "length": 22,
+                "offset": 0,
+                "style": "Bold"
+              },
+              {
+                "length": 13,
+                "offset": 54,
+                "style": "Bold"
+              },
+              {
+                "length": 11,
+                "offset": 112,
+                "style": "Bold"
+              },
+              {
+                "length": 5,
+                "offset": 158,
+                "style": "Bold"
+              }
+            ],
+            "key": "57e7v",
+            "text": "能力说明Source-grounded 问答所有回答基于你导入的资料，每个观点都可以追溯到具体 sourceDeep Research自动深入研究某个主题，生成研究报告，甚至推荐新的 source 加入你的 notebook多 source 综合不止看一篇文档。可以从几十上百个 source 中做交叉分析和综合推理多版本改写同一内容可以针对不同受众改写：新手版、专业版、高管摘要版",
+            "type": "unstyled"
+          },
+          {
+            "data": {},
+            "entityRanges": [],
+            "inlineStyleRanges": [],
+            "key": "2jcf1",
+            "text": "内容生成能力",
+            "type": "unstyled"
+          },
+          {
+            "data": {},
+            "entityRanges": [],
+            "inlineStyleRanges": [
+              {
+                "length": 9,
+                "offset": 0,
+                "style": "Bold"
+              },
+              {
+                "length": 4,
+                "offset": 45,
+                "style": "Bold"
+              },
+              {
+                "length": 4,
+                "offset": 77,
+                "style": "Bold"
+              },
+              {
+                "length": 4,
+                "offset": 124,
+                "style": "Bold"
+              },
+              {
+                "length": 5,
+                "offset": 152,
+                "style": "Bold"
+              },
+              {
+                "length": 3,
+                "offset": 181,
+                "style": "Bold"
+              },
+              {
+                "length": 4,
+                "offset": 194,
+                "style": "Bold"
+              }
+            ],
+            "key": "dk74r",
+            "text": "能力说明播客式音频自动生成两人对话的播客，有节奏、有追问。还能在播放中\"加入对话\"实时互动视频教程自动生成带旁白的幻灯片视频，包含 AI 配图、图表、引用演示文稿从 source 生成 Slide Deck，可对话式修改，导出 PowerPoint思维导图交互式可视化知识结构，点击节点展开细节或触发追问测验和闪卡自动生成测验题和复习卡片，适合学习验证和团队培训信息图生成可视化的信息长图数据表格从多个 source 提取结构化数据做横向对比",
+            "type": "unstyled"
+          },
+          {
+            "data": {},
+            "entityRanges": [],
+            "inlineStyleRanges": [
+              {
+                "length": 83,
+                "offset": 0,
+                "style": "Bold"
+              }
+            ],
+            "key": "2mjd6",
+            "text": "说白了，NotebookLM 不是一个\"笔记工具\"或者\"第二大脑\"。它是一个拥有 AI 能力的活知识引擎。你给它资料，它能用十几种方式把这些资料转化成可用的知识产物。",
+            "type": "unstyled"
+          },
+          {
+            "data": {},
+            "entityRanges": [],
+            "inlineStyleRanges": [],
+            "key": "2iis6",
+            "text": "这意味着什么？",
+            "type": "unstyled"
+          },
+          {
+            "data": {},
+            "entityRanges": [],
+            "inlineStyleRanges": [],
+            "key": "8v81v",
+            "text": "你可能觉得 NotebookLM 就是一个研究工具，或者一个读书辅助。但想想这些场景：",
+            "type": "unstyled"
+          },
+          {
+            "data": {},
+            "entityRanges": [],
+            "inlineStyleRanges": [],
+            "key": "dbaak",
+            "text": "把产品文档全部导入，让它自动生成新员工 onboarding 教程和视频",
+            "type": "unordered-list-item"
+          },
+          {
+            "data": {},
+            "entityRanges": [],
+            "inlineStyleRanges": [],
+            "key": "4sdcj",
+            "text": "把客服常见问题和官方文档导入，让它变成你的社群知识库和自动客服系统",
+            "type": "unordered-list-item"
+          },
+          {
+            "data": {},
+            "entityRanges": [],
+            "inlineStyleRanges": [],
+            "key": "5ls39",
+            "text": "把竞品文档都导入，让它生成结构化的竞品分析报告",
+            "type": "unordered-list-item"
+          },
+          {
+            "data": {},
+            "entityRanges": [],
+            "inlineStyleRanges": [],
+            "key": "3p58b",
+            "text": "把一本书按章节导入，让它生成播客、测验题、思维导图，配合你的学习节奏",
+            "type": "unordered-list-item"
+          },
+          {
+            "data": {},
+            "entityRanges": [],
+            "inlineStyleRanges": [],
+            "key": "a1r97",
+            "text": "把行业报告导入，让它变成你的研究助手，随时做跨文档的交叉验证",
+            "type": "unordered-list-item"
+          },
+          {
+            "data": {},
+            "entityRanges": [],
+            "inlineStyleRanges": [],
+            "key": "bn8th",
+            "text": "可能性非常多。NotebookLM 的能力完全可以覆盖学习、教学、客服、研究、内容生产等各种场景。",
+            "type": "unstyled"
+          },
+          {
+            "data": {},
+            "entityRanges": [],
+            "inlineStyleRanges": [],
+            "key": "fgi70",
+            "text": "但是，想要做到这些，有一个绕不开的前提。",
+            "type": "unstyled"
+          },
+          {
+            "data": {},
+            "entityRanges": [],
+            "inlineStyleRanges": [],
+            "key": "bqnv3",
+            "text": "第二章：全部能力的天花板，取决于一件事",
+            "type": "header-two"
+          },
+          {
+            "data": {},
+            "entityRanges": [],
+            "inlineStyleRanges": [
+              {
+                "length": 12,
+                "offset": 34,
+                "style": "Bold"
+              }
+            ],
+            "key": "abjv9",
+            "text": "用下来你会发现，NotebookLM 的所有魔法都建立在一个前提上：你的 source 要好。",
+            "type": "unstyled"
+          },
+          {
+            "data": {},
+            "entityRanges": [],
+            "inlineStyleRanges": [],
+            "key": "346s8",
+            "text": "Source 是 NotebookLM 的燃料。source 的质量、完整性、组织方式，直接决定了它所有产出的水平。",
+            "type": "unstyled"
+          },
+          {
+            "data": {},
+            "entityRanges": [],
+            "inlineStyleRanges": [],
+            "key": "dbdcn",
+            "text": "而这，恰恰是它最大的 friction。",
+            "type": "unstyled"
+          },
+          {
+            "data": {},
+            "entityRanges": [],
+            "inlineStyleRanges": [],
+            "key": "2ib53",
+            "text": "痛点 1：Source 的收集和导入没法自动化",
+            "type": "unstyled"
+          },
+          {
+            "data": {},
+            "entityRanges": [],
+            "inlineStyleRanges": [],
+            "key": "acieb",
+            "text": "公平地说，NotebookLM 的 GUI 是支持批量操作的。你可以一次粘贴多个 URL，可以从 Google Drive 批量选文件，支持的格式也很多（PDF、.docx、图片、音频、YouTube 链接等等）。",
+            "type": "unstyled"
+          },
+          {
+            "data": {},
+            "entityRanges": [],
+            "inlineStyleRanges": [],
+            "key": "8lfe0",
+            "text": "但问题不在于\"能不能批量\"，而在于两个更深层的 friction：",
+            "type": "unstyled"
+          },
+          {
+            "data": {},
+            "entityRanges": [],
+            "inlineStyleRanges": [
+              {
+                "length": 15,
+                "offset": 3,
+                "style": "Bold"
+              }
+            ],
+            "key": "99ikh",
+            "text": "第一，source 的收集本身就很累。你想导入一个文档站的全部页面？你得先手动去整理出所有 URL 的列表。一个有几百个页面的 docs 站，你怎么手动整理？这一步就已经劝退大多数人了。",
+            "type": "unstyled"
+          },
+          {
+            "data": {},
+            "entityRanges": [],
+            "inlineStyleRanges": [
+              {
+                "length": 29,
+                "offset": 3,
+                "style": "Bold"
+              }
+            ],
+            "key": "fooe9",
+            "text": "第二，没有 API，没法 programmatically 操作。NotebookLM 官方到现在没有提供公开 API。你只能通过 GUI 手动操作。这意味着你没办法写一个脚本说\"帮我把这 500 个 URL 自动导进去\"。你得一次次地打开界面、粘贴、等待、确认。",
+            "type": "unstyled"
+          },
+          {
+            "data": {},
+            "entityRanges": [],
+            "inlineStyleRanges": [],
+            "key": "7tqtl",
+            "text": "而今天我们要讲的这个 NotebookLM skill，通过非官方的方式实现了 programmatic 操作，让 OpenClaw 可以用命令行直接控制 NotebookLM。这就打通了自动化的关键环节。",
+            "type": "unstyled"
+          },
+          {
+            "data": {},
+            "entityRanges": [],
+            "inlineStyleRanges": [],
+            "key": "dp49b",
+            "text": "痛点 2：Source 的清洗没法自动化",
+            "type": "unstyled"
+          },
+          {
+            "data": {},
+            "entityRanges": [],
+            "inlineStyleRanges": [],
+            "key": "5lbg9",
+            "text": "把一堆 URL 导进去之后，你会遇到各种脏数据：",
+            "type": "unstyled"
+          },
+          {
+            "data": {},
+            "entityRanges": [],
+            "inlineStyleRanges": [],
+            "key": "f7ocg",
+            "text": "文档站同时有英文版和中文翻译版，内容完全重复，你得手动挑出来删",
+            "type": "unordered-list-item"
+          },
+          {
+            "data": {},
+            "entityRanges": [],
+            "inlineStyleRanges": [],
+            "key": "3poia",
+            "text": "同一个页面因为 URL 路径不同被导入了两次，你得一条条比对",
+            "type": "unordered-list-item"
+          },
+          {
+            "data": {},
+            "entityRanges": [],
+            "inlineStyleRanges": [],
+            "key": "5astu",
+            "text": "导了 500 个，不知道有没有漏了的，人工数根本数不过来",
+            "type": "unordered-list-item"
+          },
+          {
+            "data": {},
+            "entityRanges": [],
+            "inlineStyleRanges": [],
+            "key": "cm863",
+            "text": "NotebookLM 不会帮你做这些。它只管存，不管洗。",
+            "type": "unstyled"
+          },
+          {
+            "data": {},
+            "entityRanges": [],
+            "inlineStyleRanges": [],
+            "key": "1naff",
+            "text": "痛点 3：Source 的选择和组合需要手动 handpick",
+            "type": "unstyled"
+          },
+          {
+            "data": {},
+            "entityRanges": [],
+            "inlineStyleRanges": [],
+            "key": "abada",
+            "text": "NotebookLM 有一个很好的功能：你可以选中特定的几个 source 来回答问题，而不是每次都用全量。",
+            "type": "unstyled"
+          },
+          {
+            "data": {},
+            "entityRanges": [],
+            "inlineStyleRanges": [],
+            "key": "fs40r",
+            "text": "拿读书举例。很多人把整本书扔进去当一个 source。更好的做法是按章节拆分，每一章作为一个独立的 source，然后你想深入某几个章节的时候，只选中那几个 source 去提问。这样回答更精准、更集中。",
+            "type": "unstyled"
+          },
+          {
+            "data": {},
+            "entityRanges": [],
+            "inlineStyleRanges": [],
+            "key": "l6ve",
+            "text": "但是，按章节拆分、导入、然后每次手动选择相关 source？这个过程完全是人工操作。",
+            "type": "unstyled"
+          },
+          {
+            "data": {},
+            "entityRanges": [],
+            "inlineStyleRanges": [],
+            "key": "2r679",
+            "text": "痛点 4：Source 的更新和维护是持续负担",
+            "type": "unstyled"
+          },
+          {
+            "data": {},
+            "entityRanges": [],
+            "inlineStyleRanges": [],
+            "key": "e74ah",
+            "text": "文档在更新、新内容在发布、旧内容可能过时了。你的 notebook 如果不跟着更新，过几个月里面就是过期情报。",
+            "type": "unstyled"
+          },
+          {
+            "data": {},
+            "entityRanges": [],
+            "inlineStyleRanges": [],
+            "key": "5r5om",
+            "text": "但 NotebookLM 没有\"自动追踪更新\"的机制。你得自己记住哪些 source 需要更新，手动去加新的、删旧的。",
+            "type": "unstyled"
+          },
+          {
+            "data": {},
+            "entityRanges": [],
+            "inlineStyleRanges": [],
+            "key": "1be6o",
+            "text": "总结一下",
+            "type": "unstyled"
+          },
+          {
+            "data": {},
+            "entityRanges": [],
+            "inlineStyleRanges": [
+              {
+                "length": 42,
+                "offset": 0,
+                "style": "Bold"
+              }
+            ],
+            "key": "1mdcm",
+            "text": "NotebookLM 是一个能力极强的 AI 知识引擎，但它的\"进料口\"是纯手工的。你手动导入、手动清洗、手动选择、手动更新。一旦 source 数量上规模（几十上百个），这件事就从\"顺手\"变成了\"负担\"。",
+            "type": "unstyled"
+          },
+          {
+            "data": {},
+            "entityRanges": [],
+            "inlineStyleRanges": [],
+            "key": "f4h9u",
+            "text": "而这，就是 OpenClaw 出场的理由。",
+            "type": "unstyled"
+          },
+          {
+            "data": {},
+            "entityRanges": [],
+            "inlineStyleRanges": [],
+            "key": "rmpn",
+            "text": "第三章：AI 指挥 AI，一切都变了",
+            "type": "header-two"
+          },
+          {
+            "data": {},
+            "entityRanges": [],
+            "inlineStyleRanges": [],
+            "key": "7q0iq",
+            "text": "OpenClaw 是一个 AI Agent，它可以执行任务、调用工具、写脚本、操作 API。",
+            "type": "unstyled"
+          },
+          {
+            "data": {},
+            "entityRanges": [],
+            "inlineStyleRanges": [
+              {
+                "length": 25,
+                "offset": 40,
+                "style": "Bold"
+              }
+            ],
+            "key": "4910s",
+            "text": "当你给 OpenClaw 装了 NotebookLM skill，你做的事情是：让一个 AI agent 去操作另一个 AI 产品。",
+            "type": "unstyled"
+          },
+          {
+            "data": {},
+            "entityRanges": [],
+            "inlineStyleRanges": [],
+            "key": "bemgi",
+            "text": "这不是简单的\"多了一个功能\"。这是架构层面的升级。",
+            "type": "unstyled"
+          },
+          {
+            "data": {},
+            "entityRanges": [],
+            "inlineStyleRanges": [],
+            "key": "levm",
+            "text": "没有 OpenClaw 的时候",
+            "type": "unstyled"
+          },
+          {
+            "data": {},
+            "entityRanges": [],
+            "inlineStyleRanges": [],
+            "key": "d3kvr",
+            "text": "你（人工） → NotebookLM（AI 引擎）→ 知识产出\n  ↑\n  手动导入、清洗、选择、更新（全是人工）",
+            "type": "unstyled"
+          },
+          {
+            "data": {},
+            "entityRanges": [],
+            "inlineStyleRanges": [],
+            "key": "9p4h8",
+            "text": "你是 NotebookLM 的\"人肉管道\"。你负责喂料、清理、维护。NotebookLM 负责思考和产出。中间的人工环节就是瓶颈。",
+            "type": "unstyled"
+          },
+          {
+            "data": {},
+            "entityRanges": [],
+            "inlineStyleRanges": [],
+            "key": "cj1ia",
+            "text": "有了 OpenClaw 之后",
+            "type": "unstyled"
+          },
+          {
+            "data": {},
+            "entityRanges": [],
+            "inlineStyleRanges": [],
+            "key": "5b85q",
+            "text": "你（指挥） → OpenClaw（自动化层） → NotebookLM（认知层）→ 知识产出\n                ↓\n     自动抓取、批量导入、智能清洗\n     定时更新、审计完整性、编排产出",
+            "type": "unstyled"
+          },
+          {
+            "data": {},
+            "entityRanges": [],
+            "inlineStyleRanges": [],
+            "key": "3riof",
+            "text": "OpenClaw 接管了所有手工环节。它去抓 URL、批量导入、做清洗、跑审计、定时更新。NotebookLM 继续做它最擅长的事：基于 source 做深度理解和内容生成。",
+            "type": "unstyled"
+          },
+          {
+            "data": {},
+            "entityRanges": [],
+            "inlineStyleRanges": [
+              {
+                "length": 16,
+                "offset": 0,
+                "style": "Bold"
+              }
+            ],
+            "key": "bebpt",
+            "text": "你从\"操作员\"变成了\"指挥官\"。你只需要说\"帮我把这个文档站的资料全部导入、清洗干净、每周更新\"。剩下的事，两个 AI 自己搞定。",
+            "type": "unstyled"
+          },
+          {
+            "data": {},
+            "entityRanges": [],
+            "inlineStyleRanges": [],
+            "key": "177je",
+            "text": "这就是\"AI 指挥 AI\"的核心含义。不是炫技，是实实在在地把你最头疼的那一环自动化了。",
+            "type": "unstyled"
+          },
+          {
+            "data": {},
+            "entityRanges": [],
+            "inlineStyleRanges": [],
+            "key": "auf1j",
+            "text": "第四章：524→269 的完整复盘",
+            "type": "header-two"
+          },
+          {
+            "data": {},
+            "entityRanges": [],
+            "inlineStyleRanges": [],
+            "key": "flbql",
+            "text": "回到我开头说的那个案例。",
+            "type": "unstyled"
+          },
+          {
+            "data": {},
+            "entityRanges": [],
+            "inlineStyleRanges": [],
+            "key": "2jeu5",
+            "text": "背景",
+            "type": "unstyled"
+          },
+          {
+            "data": {},
+            "entityRanges": [],
+            "inlineStyleRanges": [],
+            "key": "3v3st",
+            "text": "目标：系统学 OpenClaw，把官方文档全站导入 NotebookLM",
+            "type": "unordered-list-item"
+          },
+          {
+            "data": {
+              "urls": [
+                {
+                  "fromIndex": 4,
+                  "text": "docs.openclaw.ai",
+                  "toIndex": 20
+                }
+              ]
+            },
+            "entityRanges": [],
+            "inlineStyleRanges": [],
+            "key": "d88ea",
+            "text": "文档站：docs.openclaw.ai",
+            "type": "unordered-list-item"
+          },
+          {
+            "data": {},
+            "entityRanges": [],
+            "inlineStyleRanges": [],
+            "key": "7rd8b",
+            "text": "页面总数：524",
+            "type": "unordered-list-item"
+          },
+          {
+            "data": {},
+            "entityRanges": [],
+            "inlineStyleRanges": [],
+            "key": "77o9h",
+            "text": "实际发生了什么",
+            "type": "unstyled"
+          },
+          {
+            "data": {},
+            "entityRanges": [],
+            "inlineStyleRanges": [],
+            "key": "73vas",
+            "text": "我跟 OpenClaw 说了我想做的事情之后，它就自己开始跑了。",
+            "type": "unstyled"
+          },
+          {
+            "data": {},
+            "entityRanges": [],
+            "inlineStyleRanges": [],
+            "key": "msj9",
+            "text": "我去忙别的事了。",
+            "type": "unstyled"
+          },
+          {
+            "data": {},
+            "entityRanges": [],
+            "inlineStyleRanges": [],
+            "key": "d733r",
+            "text": "等我回来检查的时候，它已经完成了全部工作：",
+            "type": "unstyled"
+          },
+          {
+            "data": {},
+            "entityRanges": [],
+            "inlineStyleRanges": [
+              {
+                "length": 13,
+                "offset": 0,
+                "style": "Bold"
+              }
+            ],
+            "key": "1alu",
+            "text": "自动抓取了 sitemap，提取出全部 524 个页面 URL",
+            "type": "ordered-list-item"
+          },
+          {
+            "data": {},
+            "entityRanges": [],
+            "inlineStyleRanges": [
+              {
+                "length": 15,
+                "offset": 0,
+                "style": "Bold"
+              }
+            ],
+            "key": "d2iea",
+            "text": "逐条导入 NotebookLM，524/524 成功，失败 = 0",
+            "type": "ordered-list-item"
+          },
+          {
+            "data": {},
+            "entityRanges": [],
+            "inlineStyleRanges": [
+              {
+                "length": 19,
+                "offset": 0,
+                "style": "Bold"
+              }
+            ],
+            "key": "a6q9u",
+            "text": "发现了 zh-CN 翻译版跟英文版重复，主动问我要不要清理。我说清，它就批量删掉了 255 个重复 source",
+            "type": "ordered-list-item"
+          },
+          {
+            "data": {},
+            "entityRanges": [],
+            "inlineStyleRanges": [
+              {
+                "length": 16,
+                "offset": 0,
+                "style": "Bold"
+              }
+            ],
+            "key": "58ok3",
+            "text": "又发现了英文 URL 级别的重复（路径差异导致同一页面被导入两次），删掉了 38 个",
+            "type": "ordered-list-item"
+          },
+          {
+            "data": {},
+            "entityRanges": [],
+            "inlineStyleRanges": [
+              {
+                "length": 6,
+                "offset": 0,
+                "style": "Bold"
+              }
+            ],
+            "key": "b7luc",
+            "text": "跑了一次审计，对比 Expected 和 Actual",
+            "type": "ordered-list-item"
+          },
+          {
+            "data": {},
+            "entityRanges": [],
+            "inlineStyleRanges": [],
+            "key": "35cfe",
+            "text": "▼ OpenClaw 自主完成导入和清洗的过程",
+            "type": "unstyled"
+          },
+          {
+            "data": {},
+            "entityRanges": [
+              {
+                "key": 2,
+                "length": 1,
+                "offset": 0
+              }
+            ],
+            "inlineStyleRanges": [],
+            "key": "2ff32",
+            "text": " ",
+            "type": "atomic"
+          },
+          {
+            "data": {},
+            "entityRanges": [],
+            "inlineStyleRanges": [],
+            "key": "5fth9",
+            "text": "",
+            "type": "unstyled"
+          },
+          {
+            "data": {},
+            "entityRanges": [],
+            "inlineStyleRanges": [],
+            "key": "614uv",
+            "text": "OpenClaw 自动抓取 sitemap → 批量导入 → 发现重复 source",
+            "type": "unstyled"
+          },
+          {
+            "data": {},
+            "entityRanges": [
+              {
+                "key": 3,
+                "length": 1,
+                "offset": 0
+              }
+            ],
+            "inlineStyleRanges": [],
+            "key": "2tvjf",
+            "text": " ",
+            "type": "atomic"
+          },
+          {
+            "data": {},
+            "entityRanges": [],
+            "inlineStyleRanges": [],
+            "key": "5m0fm",
+            "text": "完成清洗 → 审计结果：全部归零",
+            "type": "unstyled"
+          },
+          {
+            "data": {},
+            "entityRanges": [],
+            "inlineStyleRanges": [],
+            "key": "8pdmd",
+            "text": "最终结果：",
+            "type": "unstyled"
+          },
+          {
+            "data": {},
+            "entityRanges": [],
+            "inlineStyleRanges": [],
+            "key": "29d8o",
+            "text": "269 干净 Source",
+            "type": "unstyled"
+          },
+          {
+            "data": {},
+            "entityRanges": [],
+            "inlineStyleRanges": [],
+            "key": "dd2qa",
+            "text": "0 Missing 0 Extra 0 Duplicate",
+            "type": "unstyled"
+          },
+          {
+            "data": {},
+            "entityRanges": [
+              {
+                "key": 4,
+                "length": 1,
+                "offset": 0
+              }
+            ],
+            "inlineStyleRanges": [],
+            "key": "8l2uq",
+            "text": " ",
+            "type": "atomic"
+          },
+          {
+            "data": {},
+            "entityRanges": [],
+            "inlineStyleRanges": [],
+            "key": "2bfit",
+            "text": "左：清洗后的 source 列表 ｜ 右：手机端预览（269 个 source）",
+            "type": "unstyled"
+          },
+          {
+            "data": {},
+            "entityRanges": [],
+            "inlineStyleRanges": [],
+            "key": "91q8o",
+            "text": "整个过程大概不到半小时。但说实话我没有计时，因为它自己在跑，我不需要盯着。",
+            "type": "unstyled"
+          },
+          {
+            "data": {},
+            "entityRanges": [],
+            "inlineStyleRanges": [],
+            "key": "d01bt",
+            "text": "让我真正觉得 amazing 的瞬间",
+            "type": "unstyled"
+          },
+          {
+            "data": {},
+            "entityRanges": [],
+            "inlineStyleRanges": [
+              {
+                "length": 4,
+                "offset": 16,
+                "style": "Bold"
+              }
+            ],
+            "key": "9hlke",
+            "text": "不是导入本身。是它做完清洗之后，主动问我：要不要针对某些特定的 source 来做一些事情？",
+            "type": "unstyled"
+          },
+          {
+            "data": {},
+            "entityRanges": [],
+            "inlineStyleRanges": [],
+            "key": "fk9v7",
+            "text": "那一刻我意识到：这不只是\"帮我做了一堆复制粘贴\"。这个东西开始像一个有主动性的助手了。它替我维护 source，还会建议我怎么用这些 source。",
+            "type": "unstyled"
+          },
+          {
+            "data": {},
+            "entityRanges": [],
+            "inlineStyleRanges": [],
+            "key": "fqled",
+            "text": "真正省下来的不是时间，是脑力",
+            "type": "unstyled"
+          },
+          {
+            "data": {},
+            "entityRanges": [],
+            "inlineStyleRanges": [],
+            "key": "9fscf",
+            "text": "如果我自己手动做这件事，要花多长时间？保守估计，好几天。但时间还不是最大的问题。",
+            "type": "unstyled"
+          },
+          {
+            "data": {},
+            "entityRanges": [],
+            "inlineStyleRanges": [],
+            "key": "i9nb",
+            "text": "最大的问题是：挑选 URL、复制粘贴、比对重复、手动删除……这些事情极其 straightforward，但极其消耗注意力。你的 mental capacity 全都浪费在了这种\"该做但不值得你做\"的事情上。",
+            "type": "unstyled"
+          },
+          {
+            "data": {},
+            "entityRanges": [],
+            "inlineStyleRanges": [],
+            "key": "3ge84",
+            "text": "自动化掉这一环之后，我可以直接从\"学习和思考\"开始。所有准备工作都不需要我操心了。",
+            "type": "unstyled"
+          },
+          {
+            "data": {},
+            "entityRanges": [],
+            "inlineStyleRanges": [
+              {
+                "length": 31,
+                "offset": 8,
+                "style": "Bold"
+              }
+            ],
+            "key": "3raj2",
+            "text": "这才是核心价值：不只是省时间，是省脑力，让你 focus 在你真正想做的事上。",
+            "type": "unstyled"
+          },
+          {
+            "data": {},
+            "entityRanges": [],
+            "inlineStyleRanges": [],
+            "key": "a3r1b",
+            "text": "第五章：有了这个知识系统之后能干什么",
+            "type": "header-two"
+          },
+          {
+            "data": {},
+            "entityRanges": [],
+            "inlineStyleRanges": [],
+            "key": "3ue89",
+            "text": "知识库搭好了，重头戏才开始。",
+            "type": "unstyled"
+          },
+          {
+            "data": {},
+            "entityRanges": [],
+            "inlineStyleRanges": [],
+            "key": "adtd1",
+            "text": "这里面其实有两个维度的用法，它们之间有本质区别。",
+            "type": "unstyled"
+          },
+          {
+            "data": {},
+            "entityRanges": [],
+            "inlineStyleRanges": [],
+            "key": "8bidv",
+            "text": "第一个维度：你自己去学（个性化学习）",
+            "type": "unstyled"
+          },
+          {
+            "data": {},
+            "entityRanges": [],
+            "inlineStyleRanges": [],
+            "key": "6k23l",
+            "text": "搭好知识库之后，我做的第一件事就是开始提问。",
+            "type": "unstyled"
+          },
+          {
+            "data": {},
+            "entityRanges": [],
+            "inlineStyleRanges": [],
+            "key": "6a262",
+            "text": "我选中了我感兴趣话题的多个 source，然后问 NotebookLM 我自己真正想搞清楚的问题。它基于这些 source 给我的回答，比我自己翻文档快了不知道多少倍。那些我之前一直似懂非懂的工作原理，几个回答就通了。",
+            "type": "unstyled"
+          },
+          {
+            "data": {},
+            "entityRanges": [],
+            "inlineStyleRanges": [],
+            "key": "3v4l1",
+            "text": "我把这些问答整理成了笔记，甚至用 NotebookLM 生成了对应主题的视频教程和 slides。",
+            "type": "unstyled"
+          },
+          {
+            "data": {},
+            "entityRanges": [],
+            "inlineStyleRanges": [],
+            "key": "51vah",
+            "text": "▼ 我在 NotebookLM 中的个性化问答过程",
+            "type": "unstyled"
+          },
+          {
+            "data": {},
+            "entityRanges": [
+              {
+                "key": 5,
+                "length": 1,
+                "offset": 0
+              }
+            ],
+            "inlineStyleRanges": [],
+            "key": "9plpr",
+            "text": " ",
+            "type": "atomic"
+          },
+          {
+            "data": {},
+            "entityRanges": [],
+            "inlineStyleRanges": [],
+            "key": "4ej06",
+            "text": "选中特定 source 提问 → 深入追问工作原理 → Source-grounded 精准回答",
+            "type": "unstyled"
+          },
+          {
+            "data": {},
+            "entityRanges": [
+              {
+                "key": 6,
+                "length": 1,
+                "offset": 0
+              }
+            ],
+            "inlineStyleRanges": [],
+            "key": "mi2q",
+            "text": " ",
+            "type": "atomic"
+          },
+          {
+            "data": {},
+            "entityRanges": [],
+            "inlineStyleRanges": [],
+            "key": "f2pa6",
+            "text": "跨 source 综合分析 → 整理学习笔记 → 发现新的问题角度",
+            "type": "unstyled"
+          },
+          {
+            "data": {},
+            "entityRanges": [],
+            "inlineStyleRanges": [
+              {
+                "length": 18,
+                "offset": 0,
+                "style": "Bold"
+              }
+            ],
+            "key": "8pak4",
+            "text": "但有一点很重要：学习本身不能自动化。如果你的目标是真正理解一个东西，你需要自己去提问、自己去思考。AI 帮你省掉的是准备工作（收集、整理、导入、清洗），而不是思考本身。",
+            "type": "unstyled"
+          },
+          {
+            "data": {},
+            "entityRanges": [],
+            "inlineStyleRanges": [],
+            "key": "5fqoa",
+            "text": "这些笔记和 prompt 是我个人化的。只有我知道我哪里不懂，只有我知道我想从什么角度理解一个概念。这是你作为用户亲自参与的部分。",
+            "type": "unstyled"
+          },
+          {
+            "data": {},
+            "entityRanges": [],
+            "inlineStyleRanges": [],
+            "key": "c3fv9",
+            "text": "第二个维度：让 OpenClaw 替你去做（自动化内容生产）",
+            "type": "unstyled"
+          },
+          {
+            "data": {},
+            "entityRanges": [],
+            "inlineStyleRanges": [],
+            "key": "74eg9",
+            "text": "学习是个性化的，但有很多事情其实不需要你亲自 prompt NotebookLM。",
+            "type": "unstyled"
+          },
+          {
+            "data": {},
+            "entityRanges": [],
+            "inlineStyleRanges": [],
+            "key": "4fs5g",
+            "text": "你想给社群生成一份\"每周 OpenClaw Tips\"",
+            "type": "unordered-list-item"
+          },
+          {
+            "data": {},
+            "entityRanges": [],
+            "inlineStyleRanges": [],
+            "key": "3op1u",
+            "text": "你想给新人生成一套 7 天学习路径",
+            "type": "unordered-list-item"
+          },
+          {
+            "data": {},
+            "entityRanges": [],
+            "inlineStyleRanges": [],
+            "key": "den0o",
+            "text": "你想把文档转成 FAQ 文档、播客、视频教程、幻灯片",
+            "type": "unordered-list-item"
+          },
+          {
+            "data": {},
+            "entityRanges": [],
+            "inlineStyleRanges": [],
+            "key": "eu271",
+            "text": "你想让它定期生成\"本周新增内容摘要\"",
+            "type": "unordered-list-item"
+          },
+          {
+            "data": {},
+            "entityRanges": [],
+            "inlineStyleRanges": [],
+            "key": "7k90l",
+            "text": "这些事情不需要你的个人判断，你只需要告诉 OpenClaw 你的需求。然后 OpenClaw 自己会：",
+            "type": "unstyled"
+          },
+          {
+            "data": {},
+            "entityRanges": [],
+            "inlineStyleRanges": [],
+            "key": "5ulfs",
+            "text": "挑选合适的 source（它知道你的 notebook 里有什么）",
+            "type": "ordered-list-item"
+          },
+          {
+            "data": {},
+            "entityRanges": [],
+            "inlineStyleRanges": [],
+            "key": "88ha",
+            "text": "构造合适的 prompt",
+            "type": "ordered-list-item"
+          },
+          {
+            "data": {},
+            "entityRanges": [],
+            "inlineStyleRanges": [],
+            "key": "7ai8c",
+            "text": "让 NotebookLM 生成对应的产出（教程、播客、slides、测验题、思维导图……）",
+            "type": "ordered-list-item"
+          },
+          {
+            "data": {},
+            "entityRanges": [],
+            "inlineStyleRanges": [],
+            "key": "69rdo",
+            "text": "▼ NotebookLM 生成的各类内容产出",
+            "type": "unstyled"
+          },
+          {
+            "data": {},
+            "entityRanges": [
+              {
+                "key": 7,
+                "length": 1,
+                "offset": 0
+              }
+            ],
+            "inlineStyleRanges": [],
+            "key": "9h0o",
+            "text": " ",
+            "type": "atomic"
+          },
+          {
+            "data": {},
+            "entityRanges": [],
+            "inlineStyleRanges": [],
+            "key": "cu4hs",
+            "text": "Studio 中的笔记和产出 ｜ 自动生成的视频教程 ｜ 教程对应的 Slides",
+            "type": "unstyled"
+          },
+          {
+            "data": {},
+            "entityRanges": [],
+            "inlineStyleRanges": [],
+            "key": "aoqqh",
+            "text": "你要一个 7 天学习路径？OpenClaw 会选中全量 source，让 NotebookLM 生成。你要一份只关于 Skills 系统的深度教程？OpenClaw 会只选中 Skills 相关的 source，再去 prompt。",
+            "type": "unstyled"
+          },
+          {
+            "data": {},
+            "entityRanges": [],
+            "inlineStyleRanges": [
+              {
+                "length": 69,
+                "offset": 0,
+                "style": "Bold"
+              }
+            ],
+            "key": "8jb0n",
+            "text": "这就是\"AI 指挥 AI\"真正强大的地方：不只是 source 管理的自动化，连 NotebookLM 的使用本身，很多时候也可以自动化。",
+            "type": "unstyled"
+          },
+          {
+            "data": {},
+            "entityRanges": [],
+            "inlineStyleRanges": [],
+            "key": "8bmaf",
+            "text": "两个维度，一个系统",
+            "type": "unstyled"
+          },
+          {
+            "data": {},
+            "entityRanges": [],
+            "inlineStyleRanges": [],
+            "key": "f23db",
+            "text": "回顾一下前面列的 NotebookLM 能力表。现在你的 notebook 里有 269 个经过清洗、审计完毕的 source，所有这些能力都有了发挥的基础：",
+            "type": "unstyled"
+          },
+          {
+            "data": {},
+            "entityRanges": [],
+            "inlineStyleRanges": [
+              {
+                "length": 4,
+                "offset": 0,
+                "style": "Bold"
+              }
+            ],
+            "key": "aa3hl",
+            "text": "精准问答：基于 269 篇官方文档的 source-grounded 回答",
+            "type": "unordered-list-item"
+          },
+          {
+            "data": {},
+            "entityRanges": [],
+            "inlineStyleRanges": [
+              {
+                "length": 2,
+                "offset": 0,
+                "style": "Bold"
+              }
+            ],
+            "key": "a4pc1",
+            "text": "播客：选中一组 source，自动生成两人对话式播客",
+            "type": "unordered-list-item"
+          },
+          {
+            "data": {},
+            "entityRanges": [],
+            "inlineStyleRanges": [
+              {
+                "length": 4,
+                "offset": 0,
+                "style": "Bold"
+              }
+            ],
+            "key": "9bed1",
+            "text": "视频教程：带旁白和 AI 配图的幻灯片视频",
+            "type": "unordered-list-item"
+          },
+          {
+            "data": {},
+            "entityRanges": [],
+            "inlineStyleRanges": [
+              {
+                "length": 4,
+                "offset": 0,
+                "style": "Bold"
+              }
+            ],
+            "key": "dkops",
+            "text": "演示文稿：直接生成 Slide Deck，对话式修改，导出 PowerPoint",
+            "type": "unordered-list-item"
+          },
+          {
+            "data": {},
+            "entityRanges": [],
+            "inlineStyleRanges": [
+              {
+                "length": 4,
+                "offset": 0,
+                "style": "Bold"
+              }
+            ],
+            "key": "2rs9l",
+            "text": "思维导图：可视化知识结构，点击节点展开细节",
+            "type": "unordered-list-item"
+          },
+          {
+            "data": {},
+            "entityRanges": [],
+            "inlineStyleRanges": [
+              {
+                "length": 5,
+                "offset": 0,
+                "style": "Bold"
+              }
+            ],
+            "key": "5qha",
+            "text": "测验和闪卡：自动出题，适合自测和培训",
+            "type": "unordered-list-item"
+          },
+          {
+            "data": {},
+            "entityRanges": [],
+            "inlineStyleRanges": [
+              {
+                "length": 4,
+                "offset": 0,
+                "style": "Bold"
+              }
+            ],
+            "key": "iept",
+            "text": "学习路径：基于完整文档体系的系统化学习计划",
+            "type": "unordered-list-item"
+          },
+          {
+            "data": {},
+            "entityRanges": [],
+            "inlineStyleRanges": [],
+            "key": "3tlfk",
+            "text": "这些产出里，有些是你亲自 prompt 的（学习场景），有些是 OpenClaw 帮你自动编排的（内容生产场景）。两者结合，一套知识底座，个性化学习和批量内容生产同时进行。",
+            "type": "unstyled"
+          },
+          {
+            "data": {},
+            "entityRanges": [],
+            "inlineStyleRanges": [],
+            "key": "fcrq7",
+            "text": "第六章：安装——把这一段扔给你的 OpenClaw 就行",
+            "type": "header-two"
+          },
+          {
+            "data": {},
+            "entityRanges": [],
+            "inlineStyleRanges": [],
+            "key": "4sdoj",
+            "text": "下面这部分是写给你的 OpenClaw 看的，不是写给你看的。",
+            "type": "unstyled"
+          },
+          {
+            "data": {},
+            "entityRanges": [],
+            "inlineStyleRanges": [
+              {
+                "length": 29,
+                "offset": 28,
+                "style": "Bold"
+              }
+            ],
+            "key": "92opv",
+            "text": "作为读者，你不需要理解下面的技术细节。你只需要做一件事：把这整篇文章（或者这一章的内容）发给你的 OpenClaw，告诉它：",
+            "type": "unstyled"
+          },
+          {
+            "data": {},
+            "entityRanges": [],
+            "inlineStyleRanges": [],
+            "key": "183c8",
+            "text": "\"阅读这篇文章，帮我安装 NotebookLM skill。安装完成后，告诉我它能帮我做什么，给我列出详细的用法和可能性。\"",
+            "type": "blockquote"
+          },
+          {
+            "data": {},
+            "entityRanges": [],
+            "inlineStyleRanges": [],
+            "key": "8u0uk",
+            "text": "That's it。",
+            "type": "unstyled"
+          },
+          {
+            "data": {},
+            "entityRanges": [],
+            "inlineStyleRanges": [],
+            "key": "3g59g",
+            "text": "你需要期待什么",
+            "type": "unstyled"
+          },
+          {
+            "data": {},
+            "entityRanges": [],
+            "inlineStyleRanges": [
+              {
+                "length": 12,
+                "offset": 23,
+                "style": "Bold"
+              }
+            ],
+            "key": "d3f6k",
+            "text": "整个过程中，OpenClaw 会自动处理安装。唯一需要你亲自操作的一步是：它会打开一个浏览器窗口，让你登录你的 Google 账号来完成 NotebookLM 的授权验证。登录完成后，后续一切自动。",
+            "type": "unstyled"
+          },
+          {
+            "data": {},
+            "entityRanges": [],
+            "inlineStyleRanges": [],
+            "key": "brm0g",
+            "text": "给 OpenClaw 的安装指引",
+            "type": "unstyled"
+          },
+          {
+            "data": {},
+            "entityRanges": [],
+            "inlineStyleRanges": [],
+            "key": "ad6gj",
+            "text": "OpenClaw，请访问以下 GitHub 仓库，阅读完整文档，然后按照文档指引完成安装：",
+            "type": "unstyled"
+          },
+          {
+            "data": {
+              "urls": [
+                {
+                  "fromIndex": 0,
+                  "text": "https://github.com/teng-lin/notebooklm-py.git",
+                  "toIndex": 45
+                }
+              ]
+            },
+            "entityRanges": [],
+            "inlineStyleRanges": [
+              {
+                "length": 45,
+                "offset": 0,
+                "style": "Bold"
+              }
+            ],
+            "key": "bbgi8",
+            "text": "https://github.com/teng-lin/notebooklm-py.git",
+            "type": "blockquote"
+          },
+          {
+            "data": {},
+            "entityRanges": [],
+            "inlineStyleRanges": [],
+            "key": "3kjgm",
+            "text": "安装完成后，请务必引导用户运行 notebooklm login 完成 Google 账号授权（这一步需要用户亲自在浏览器中登录）。然后仔细阅读 skill 文档，向用户详细解释这个 skill 能做什么、有哪些用法和可能性。",
+            "type": "unstyled"
+          },
+          {
+            "data": {},
+            "entityRanges": [],
+            "inlineStyleRanges": [],
+            "key": "bqasg",
+            "text": "第七章：更多用法——打开你的想象力",
+            "type": "header-two"
+          },
+          {
+            "data": {},
+            "entityRanges": [],
+            "inlineStyleRanges": [],
+            "key": "ck4l5",
+            "text": "前面的案例只是冰山一角。一旦你理解了\"OpenClaw + NotebookLM\"的组合逻辑，用法远不止\"导入文档站\"这一种。",
+            "type": "unstyled"
+          },
+          {
+            "data": {},
+            "entityRanges": [],
+            "inlineStyleRanges": [],
+            "key": "1dhck",
+            "text": "学习加速",
+            "type": "unstyled"
+          },
+          {
+            "data": {},
+            "entityRanges": [],
+            "inlineStyleRanges": [],
+            "key": "ddr21",
+            "text": "把一个新框架/语言的官方文档全站导入，让 NotebookLM 生成系统化学习路径，你按路径推进",
+            "type": "unordered-list-item"
+          },
+          {
+            "data": {},
+            "entityRanges": [],
+            "inlineStyleRanges": [],
+            "key": "1gmsk",
+            "text": "把一本书按章节拆分导入，用 NotebookLM 生成每章的播客、测验题、思维导图，配合你的学习节奏",
+            "type": "unordered-list-item"
+          },
+          {
+            "data": {},
+            "entityRanges": [],
+            "inlineStyleRanges": [],
+            "key": "8q1mo",
+            "text": "准备认证考试？把教材和历年真题导入，让它帮你出模拟试卷和重点归纳",
+            "type": "unordered-list-item"
+          },
+          {
+            "data": {},
+            "entityRanges": [],
+            "inlineStyleRanges": [],
+            "key": "tunj",
+            "text": "内容生产",
+            "type": "unstyled"
+          },
+          {
+            "data": {},
+            "entityRanges": [],
+            "inlineStyleRanges": [],
+            "key": "eqja2",
+            "text": "把你过去写的所有文章导入一个 notebook，让 NotebookLM 分析你的写作风格和核心观点，帮你构思新文章",
+            "type": "unordered-list-item"
+          },
+          {
+            "data": {},
+            "entityRanges": [],
+            "inlineStyleRanges": [],
+            "key": "brtrb",
+            "text": "把播客访谈的逐字稿导入，让它生成精华摘要、金句提取、社交媒体文案",
+            "type": "unordered-list-item"
+          },
+          {
+            "data": {},
+            "entityRanges": [],
+            "inlineStyleRanges": [],
+            "key": "bi41n",
+            "text": "把产品更新日志全部导入，让它定期自动生成\"本周产品更新 Newsletter\"",
+            "type": "unordered-list-item"
+          },
+          {
+            "data": {},
+            "entityRanges": [],
+            "inlineStyleRanges": [],
+            "key": "1mdoa",
+            "text": "团队协作与知识管理",
+            "type": "unstyled"
+          },
+          {
+            "data": {},
+            "entityRanges": [],
+            "inlineStyleRanges": [],
+            "key": "rg5p",
+            "text": "新员工 onboarding：把内部文档、流程手册、FAQ 导入 notebook，自动生成 onboarding 教程和视频",
+            "type": "unordered-list-item"
+          },
+          {
+            "data": {},
+            "entityRanges": [],
+            "inlineStyleRanges": [],
+            "key": "1nie4",
+            "text": "社群知识库：把官方文档和社群高频问题导入，让 NotebookLM 成为你的 AI 客服",
+            "type": "unordered-list-item"
+          },
+          {
+            "data": {},
+            "entityRanges": [],
+            "inlineStyleRanges": [],
+            "key": "dhdnn",
+            "text": "竞品分析：把竞品的公开文档、定价页、changelog 全部导入，生成结构化竞品对比报告",
+            "type": "unordered-list-item"
+          },
+          {
+            "data": {},
+            "entityRanges": [],
+            "inlineStyleRanges": [],
+            "key": "cmv4r",
+            "text": "研究与分析",
+            "type": "unstyled"
+          },
+          {
+            "data": {},
+            "entityRanges": [],
+            "inlineStyleRanges": [],
+            "key": "fg074",
+            "text": "把某个领域的论文、报告、行业分析批量导入，做跨文档的交叉验证和趋势分析",
+            "type": "unordered-list-item"
+          },
+          {
+            "data": {},
+            "entityRanges": [],
+            "inlineStyleRanges": [],
+            "key": "aise1",
+            "text": "投资研究：把目标公司的年报、财报、分析师报告导入，生成投资 memo",
+            "type": "unordered-list-item"
+          },
+          {
+            "data": {},
+            "entityRanges": [],
+            "inlineStyleRanges": [],
+            "key": "8ifod",
+            "text": "把法规文件和合同模板导入，生成合规检查清单",
+            "type": "unordered-list-item"
+          },
+          {
+            "data": {},
+            "entityRanges": [],
+            "inlineStyleRanges": [
+              {
+                "length": 48,
+                "offset": 10,
+                "style": "Bold"
+              }
+            ],
+            "key": "3btid",
+            "text": "这些场景的共同点是：NotebookLM 的能力一直在那里，但之前被 source 管理的 friction 卡住了。现在 friction 没了，你可以真正按需求来用它。",
+            "type": "unstyled"
+          },
+          {
+            "data": {},
+            "entityRanges": [],
+            "inlineStyleRanges": [],
+            "key": "87q87",
+            "text": "第八章：几条实践建议",
+            "type": "header-two"
+          },
+          {
+            "data": {},
+            "entityRanges": [],
+            "inlineStyleRanges": [],
+            "key": "3lelj",
+            "text": "别忘了，你的 OpenClaw 也会给你建议。用完之后不知道该干啥？问它。它会建议你应该提哪些问题、应该先用哪些功能、应该怎么组织你的 notebook。这就是 AI 控制 AI，然后你再去 prompt AI 的好处。",
+            "type": "unstyled"
+          },
+          {
+            "data": {},
+            "entityRanges": [],
+            "inlineStyleRanges": [],
+            "key": "6bgjv",
+            "text": "以下是我自己的一些心得：",
+            "type": "unstyled"
+          },
+          {
+            "data": {},
+            "entityRanges": [],
+            "inlineStyleRanges": [],
+            "key": "2nv6f",
+            "text": "1. 先建库，再提问",
+            "type": "unstyled"
+          },
+          {
+            "data": {},
+            "entityRanges": [],
+            "inlineStyleRanges": [],
+            "key": "5j0ne",
+            "text": "你不知道你不知道什么。先全量导入、清洗完毕之后再提问，你的问题质量会高一个层级。因为这时候 NotebookLM 可以从全局视角定位\"你应该先关注什么\"。你也可以让 OpenClaw 建议你应该问什么。",
+            "type": "unstyled"
+          },
+          {
+            "data": {},
+            "entityRanges": [],
+            "inlineStyleRanges": [],
+            "key": "5q0aq",
+            "text": "2. 干净比数量更重要",
+            "type": "unstyled"
+          },
+          {
+            "data": {},
+            "entityRanges": [],
+            "inlineStyleRanges": [],
+            "key": "1fjv3",
+            "text": "把所有东西都塞进去不是好主意。翻译重复会让 NotebookLM 混淆权重，URL 重复会让同一个信息被过度引用。清洗成本很低，但被脏 source 误导的成本很高。",
+            "type": "unstyled"
+          },
+          {
+            "data": {},
+            "entityRanges": [],
+            "inlineStyleRanges": [],
+            "key": "19nhv",
+            "text": "3. 让 OpenClaw 帮你维护，而不是你自己",
+            "type": "unstyled"
+          },
+          {
+            "data": {},
+            "entityRanges": [],
+            "inlineStyleRanges": [],
+            "key": "8f61g",
+            "text": "知识库必须是活的。但\"活\"不意味着你每周手动花时间去更新。让 OpenClaw 设置 cron job：定期抓取 sitemap、比对变化、增量导入新内容、清理已下线的页面、跑审计。整个维护流程自动化，你只需要偶尔看一眼报告。",
+            "type": "unstyled"
+          },
+          {
+            "data": {},
+            "entityRanges": [],
+            "inlineStyleRanges": [],
+            "key": "4lp3q",
+            "text": "同样的逻辑可以用在内容生产上：定期让 OpenClaw 基于最新 source 生成周报、Tips、学习推荐。这是真正 leverage OpenClaw 持续运转能力的地方。",
+            "type": "unstyled"
+          },
+          {
+            "data": {},
+            "entityRanges": [],
+            "inlineStyleRanges": [],
+            "key": "5oif1",
+            "text": "4. 不要只拿它来玩，要整合进你的工作流",
+            "type": "unstyled"
+          },
+          {
+            "data": {},
+            "entityRanges": [],
+            "inlineStyleRanges": [],
+            "key": "8s61a",
+            "text": "NotebookLM + OpenClaw 的组合可以是一个很酷的玩具，也可以是一个真正的生产力工具。区别在于你是否把它整合进你当前的学习、工作和生产流程里。",
+            "type": "unstyled"
+          },
+          {
+            "data": {},
+            "entityRanges": [],
+            "inlineStyleRanges": [],
+            "key": "5pnp9",
+            "text": "之前那些 friction 挡住了大多数人。现在 friction 被 OpenClaw 解决了，你应该认真想一想：在我日常的哪些环节里，这套系统能真正省掉我的时间和脑力？是客服？是内容生产？是研究？是团队培训？",
+            "type": "unstyled"
+          },
+          {
+            "data": {},
+            "entityRanges": [],
+            "inlineStyleRanges": [],
+            "key": "975b1",
+            "text": "找到那个点，把 NotebookLM 真正 unlock 成你的核心工具，而不是试一次就吃灰的 demo。",
+            "type": "unstyled"
+          },
+          {
+            "data": {},
+            "entityRanges": [],
+            "inlineStyleRanges": [],
+            "key": "4448g",
+            "text": "最后：再说一个方向",
+            "type": "header-two"
+          },
+          {
+            "data": {},
+            "entityRanges": [],
+            "inlineStyleRanges": [
+              {
+                "length": 27,
+                "offset": 15,
+                "style": "Bold"
+              }
+            ],
+            "key": "f583k",
+            "text": "整篇文章我们说的都是一个方向：用 OpenClaw 给 NotebookLM 超能力——解决它的 source 管理痛点，释放它的全部能力。",
+            "type": "unstyled"
+          },
+          {
+            "data": {},
+            "entityRanges": [],
+            "inlineStyleRanges": [],
+            "key": "1j70g",
+            "text": "但还有一个反过来的方向，我觉得同样值得探索。",
+            "type": "unstyled"
+          },
+          {
+            "data": {},
+            "entityRanges": [],
+            "inlineStyleRanges": [],
+            "key": "9ak16",
+            "text": "NotebookLM 作为 OpenClaw 的第二大脑",
+            "type": "unstyled"
+          },
+          {
+            "data": {},
+            "entityRanges": [],
+            "inlineStyleRanges": [],
+            "key": "b4n9g",
+            "text": "用 OpenClaw 的人都知道，memory 管理是一个持续的挑战。怎么让你的 OpenClaw 具备特定的领域知识？怎么让它真正\"了解你\"？",
+            "type": "unstyled"
+          },
+          {
+            "data": {},
+            "entityRanges": [],
+            "inlineStyleRanges": [
+              {
+                "length": 31,
+                "offset": 36,
+                "style": "Bold"
+              }
+            ],
+            "key": "1l2hq",
+            "text": "我们现在有了 NotebookLM skill，这就打开了一种新的可能：把 NotebookLM 作为 OpenClaw 的外挂知识库。",
+            "type": "unstyled"
+          },
+          {
+            "data": {},
+            "entityRanges": [],
+            "inlineStyleRanges": [],
+            "key": "52i4g",
+            "text": "想想这些场景：",
+            "type": "unstyled"
+          },
+          {
+            "data": {},
+            "entityRanges": [],
+            "inlineStyleRanges": [],
+            "key": "bdp3g",
+            "text": "把你过去写的所有文章、笔记都放进一个 notebook。OpenClaw 需要了解你的观点和风格时，直接去 query 这个 notebook",
+            "type": "unordered-list-item"
+          },
+          {
+            "data": {},
+            "entityRanges": [],
+            "inlineStyleRanges": [],
+            "key": "755bp",
+            "text": "把你和 OpenClaw 的重要对话历史导入 notebook。它下次需要回忆某个决策的背景时，不靠有限的 memory 文件，而是去 NotebookLM 做一次 source-grounded 的检索",
+            "type": "unordered-list-item"
+          },
+          {
+            "data": {},
+            "entityRanges": [],
+            "inlineStyleRanges": [],
+            "key": "7ut7a",
+            "text": "为 OpenClaw 建立专题知识库：一个 notebook 放投资研究、一个放产品文档、一个放竞品情报。它接到不同任务时，知道去哪个 notebook 找知识",
+            "type": "unordered-list-item"
+          },
+          {
+            "data": {},
+            "entityRanges": [],
+            "inlineStyleRanges": [],
+            "key": "68sd3",
+            "text": "把行业动态、新闻 feed 定期导入 notebook，让 OpenClaw 随时可以查阅最新行业情报",
+            "type": "unordered-list-item"
+          },
+          {
+            "data": {},
+            "entityRanges": [],
+            "inlineStyleRanges": [
+              {
+                "length": 51,
+                "offset": 11,
+                "style": "Bold"
+              }
+            ],
+            "key": "f5blj",
+            "text": "这个方向的核心思路是：NotebookLM 的 source-grounded 能力，可以成为 OpenClaw 的能力扩展。不只是你用 NotebookLM，是你的 OpenClaw 也用 NotebookLM。",
+            "type": "unstyled"
+          },
+          {
+            "data": {},
+            "entityRanges": [],
+            "inlineStyleRanges": [],
+            "key": "a352s",
+            "text": "这也是我下一步想探索的方向。也期待看到大家能做出什么。",
+            "type": "unstyled"
+          },
+          {
+            "data": {},
+            "entityRanges": [],
+            "inlineStyleRanges": [],
+            "key": "cnt6m",
+            "text": "给 NotebookLM 超能力，然后让 NotebookLM 反过来给你的 OpenClaw 超能力。",
+            "type": "blockquote"
+          },
+          {
+            "data": {},
+            "entityRanges": [],
+            "inlineStyleRanges": [],
+            "key": "1jp51",
+            "text": "这个 skill，就是连接两边的那座桥。",
+            "type": "unstyled"
+          }
+        ],
+        "entityMap": [
+          {
+            "key": "4",
+            "value": {
+              "data": {
+                "entityKey": "cf8aed53-fd28-4ed4-b10f-b0ffa98eb1ff",
+                "mediaItems": [
+                  {
+                    "localMediaId": "6",
+                    "mediaCategory": "DraftTweetImage",
+                    "mediaId": "2024819323609681921"
+                  }
+                ]
+              },
+              "mutability": "Immutable",
+              "type": "MEDIA"
+            }
+          },
+          {
+            "key": "5",
+            "value": {
+              "data": {
+                "entityKey": "4d5f4356-9a96-4c8c-8c7d-c105fe24ee62",
+                "mediaItems": [
+                  {
+                    "localMediaId": "8",
+                    "mediaCategory": "DraftTweetImage",
+                    "mediaId": "2024819405478404096"
+                  }
+                ]
+              },
+              "mutability": "Immutable",
+              "type": "MEDIA"
+            }
+          },
+          {
+            "key": "6",
+            "value": {
+              "data": {
+                "entityKey": "b66fa6b6-3b38-4a34-9a35-a8476a9a38a5",
+                "mediaItems": [
+                  {
+                    "localMediaId": "10",
+                    "mediaCategory": "DraftTweetImage",
+                    "mediaId": "2024819472423682048"
+                  }
+                ]
+              },
+              "mutability": "Immutable",
+              "type": "MEDIA"
+            }
+          },
+          {
+            "key": "1",
+            "value": {
+              "data": {
+                "url": "https://pathunfold.com/ray"
+              },
+              "mutability": "Mutable",
+              "type": "LINK"
+            }
+          },
+          {
+            "key": "0",
+            "value": {
+              "data": {
+                "url": "https://www.pathunfold.com/free/ray"
+              },
+              "mutability": "Mutable",
+              "type": "LINK"
+            }
+          },
+          {
+            "key": "2",
+            "value": {
+              "data": {
+                "caption": "OpenClaw 自主完成导入和清洗的过程",
+                "entityKey": "42941671-a141-4fa3-9cf8-af3d16a05c6f",
+                "mediaItems": [
+                  {
+                    "localMediaId": "2",
+                    "mediaCategory": "DraftTweetImage",
+                    "mediaId": "2024819053588885504"
+                  }
+                ]
+              },
+              "mutability": "Immutable",
+              "type": "MEDIA"
+            }
+          },
+          {
+            "key": "7",
+            "value": {
+              "data": {
+                "entityKey": "e66f2864-1c24-4d67-ad8a-da65d7ba4b74",
+                "mediaItems": [
+                  {
+                    "localMediaId": "12",
+                    "mediaCategory": "DraftTweetImage",
+                    "mediaId": "2024819536520986624"
+                  }
+                ]
+              },
+              "mutability": "Immutable",
+              "type": "MEDIA"
+            }
+          },
+          {
+            "key": "3",
+            "value": {
+              "data": {
+                "entityKey": "872d21fc-9ce5-4460-ba24-9a8669721367",
+                "mediaItems": [
+                  {
+                    "localMediaId": "4",
+                    "mediaCategory": "DraftTweetImage",
+                    "mediaId": "2024819189949894656"
+                  }
+                ]
+              },
+              "mutability": "Immutable",
+              "type": "MEDIA"
+            }
+          }
+        ]
+      },
+      "media_entities": [
+        {
+          "id": "QVBJTWVkaWE6DAAFCgABHBmaM4ebsAAKAAIUK1LRMxWQAAAA",
+          "media_id": "2024819053588885504",
+          "media_info": {
+            "__typename": "ApiImage",
+            "color_info": {
+              "palette": [
+                {
+                  "percentage": 96.59,
+                  "rgb": {
+                    "blue": 34,
+                    "green": 29,
+                    "red": 28
+                  }
+                },
+                {
+                  "percentage": 1.97,
+                  "rgb": {
+                    "blue": 109,
+                    "green": 106,
+                    "red": 105
+                  }
+                },
+                {
+                  "percentage": 0.59,
+                  "rgb": {
+                    "blue": 30,
+                    "green": 39,
+                    "red": 70
+                  }
+                },
+                {
+                  "percentage": 0.27,
+                  "rgb": {
+                    "blue": 217,
+                    "green": 103,
+                    "red": 95
+                  }
+                },
+                {
+                  "percentage": 0.14,
+                  "rgb": {
+                    "blue": 83,
+                    "green": 184,
+                    "red": 105
+                  }
+                }
+              ]
+            },
+            "original_img_height": 1200,
+            "original_img_url": "https://pbs.twimg.com/media/HBmaM4ebsAApWUr.jpg",
+            "original_img_width": 2694
+          },
+          "media_key": "3_2024819053588885504"
+        },
+        {
+          "id": "QVBJTWVkaWE6DAAFCgABHBmacmYaEAEKAAIUK1LRMxWQAAAA",
+          "media_id": "2024819323609681921",
+          "media_info": {
+            "__typename": "ApiImage",
+            "color_info": {
+              "palette": [
+                {
+                  "percentage": 91.63,
+                  "rgb": {
+                    "blue": 57,
+                    "green": 49,
+                    "red": 51
+                  }
+                },
+                {
+                  "percentage": 4.87,
+                  "rgb": {
+                    "blue": 125,
+                    "green": 120,
+                    "red": 124
+                  }
+                },
+                {
+                  "percentage": 2.68,
+                  "rgb": {
+                    "blue": 29,
+                    "green": 35,
+                    "red": 91
+                  }
+                },
+                {
+                  "percentage": 0.22,
+                  "rgb": {
+                    "blue": 62,
+                    "green": 90,
+                    "red": 109
+                  }
+                },
+                {
+                  "percentage": 0.14,
+                  "rgb": {
+                    "blue": 82,
+                    "green": 137,
+                    "red": 155
+                  }
+                }
+              ]
+            },
+            "original_img_height": 1200,
+            "original_img_url": "https://pbs.twimg.com/media/HBmacmYaEAE80dU.jpg",
+            "original_img_width": 2554
+          },
+          "media_key": "3_2024819323609681921"
+        },
+        {
+          "id": "QVBJTWVkaWE6DAAFCgABHBmahXXboAAKAAIUK1LRMxWQAAAA",
+          "media_id": "2024819405478404096",
+          "media_info": {
+            "__typename": "ApiImage",
+            "color_info": {
+              "palette": [
+                {
+                  "percentage": 99.8,
+                  "rgb": {
+                    "blue": 44,
+                    "green": 39,
+                    "red": 36
+                  }
+                },
+                {
+                  "percentage": 0.18,
+                  "rgb": {
+                    "blue": 112,
+                    "green": 108,
+                    "red": 106
+                  }
+                }
+              ]
+            },
+            "original_img_height": 1200,
+            "original_img_url": "https://pbs.twimg.com/media/HBmahXXboAAxoOp.jpg",
+            "original_img_width": 3815
+          },
+          "media_key": "3_2024819405478404096"
+        },
+        {
+          "id": "QVBJTWVkaWE6DAAFCgABHBmaU0dbkAAKAAIUK1LRMxWQAAAA",
+          "media_id": "2024819189949894656",
+          "media_info": {
+            "__typename": "ApiImage",
+            "color_info": {
+              "palette": [
+                {
+                  "percentage": 96.73,
+                  "rgb": {
+                    "blue": 34,
+                    "green": 29,
+                    "red": 28
+                  }
+                },
+                {
+                  "percentage": 2.35,
+                  "rgb": {
+                    "blue": 115,
+                    "green": 111,
+                    "red": 111
+                  }
+                },
+                {
+                  "percentage": 0.27,
+                  "rgb": {
+                    "blue": 205,
+                    "green": 100,
+                    "red": 92
+                  }
+                },
+                {
+                  "percentage": 0.17,
+                  "rgb": {
+                    "blue": 74,
+                    "green": 115,
+                    "red": 75
+                  }
+                },
+                {
+                  "percentage": 0.12,
+                  "rgb": {
+                    "blue": 83,
+                    "green": 47,
+                    "red": 44
+                  }
+                }
+              ]
+            },
+            "original_img_height": 1200,
+            "original_img_url": "https://pbs.twimg.com/media/HBmaU0dbkAA88xC.jpg",
+            "original_img_width": 2024
+          },
+          "media_key": "3_2024819189949894656"
+        },
+        {
+          "id": "QVBJTWVkaWE6DAAFCgABHBmalQwbgAAKAAIUK1LRMxWQAAAA",
+          "media_id": "2024819472423682048",
+          "media_info": {
+            "__typename": "ApiImage",
+            "color_info": {
+              "palette": [
+                {
+                  "percentage": 99.75,
+                  "rgb": {
+                    "blue": 43,
+                    "green": 38,
+                    "red": 35
+                  }
+                },
+                {
+                  "percentage": 0.2,
+                  "rgb": {
+                    "blue": 141,
+                    "green": 138,
+                    "red": 136
+                  }
+                }
+              ]
+            },
+            "original_img_height": 1200,
+            "original_img_url": "https://pbs.twimg.com/media/HBmalQwbgAAsMaq.jpg",
+            "original_img_width": 3586
+          },
+          "media_key": "3_2024819472423682048"
+        },
+        {
+          "id": "QVBJTWVkaWE6DAAFCgABHBmao/iawAAKAAIUK1LRMxWQAAAA",
+          "media_id": "2024819536520986624",
+          "media_info": {
+            "__typename": "ApiImage",
+            "color_info": {
+              "palette": [
+                {
+                  "percentage": 60.27,
+                  "rgb": {
+                    "blue": 43,
+                    "green": 38,
+                    "red": 35
+                  }
+                },
+                {
+                  "percentage": 35.81,
+                  "rgb": {
+                    "blue": 245,
+                    "green": 241,
+                    "red": 238
+                  }
+                },
+                {
+                  "percentage": 1.31,
+                  "rgb": {
+                    "blue": 225,
+                    "green": 179,
+                    "red": 158
+                  }
+                },
+                {
+                  "percentage": 0.25,
+                  "rgb": {
+                    "blue": 103,
+                    "green": 53,
+                    "red": 45
+                  }
+                },
+                {
+                  "percentage": 0.24,
+                  "rgb": {
+                    "blue": 174,
+                    "green": 222,
+                    "red": 233
+                  }
+                }
+              ]
+            },
+            "original_img_height": 1200,
+            "original_img_url": "https://pbs.twimg.com/media/HBmao_iawAAQJ3d.jpg",
+            "original_img_width": 3532
+          },
+          "media_key": "3_2024819536520986624"
+        }
+      ]
+    },
+    "twitter_card": "tweet",
+    "color": null,
+    "provider": "twitter"
+  }
+}
