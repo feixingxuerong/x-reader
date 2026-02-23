@@ -1,10 +1,18 @@
 #!/usr/bin/env python3
-"""兼容入口：保留 python3 fetch.py 的使用方式。
+"""Backward-compatible wrapper for X-Reader CLI.
 
-核心实现迁移到 src/x_reader。
+This keeps existing usage working:
+    python3 fetch.py --url <url>
 """
 
-from x_reader.service import XReader  # noqa: F401
+from pathlib import Path
+import sys
+
+ROOT = Path(__file__).resolve().parent
+SRC = ROOT / "src"
+if str(SRC) not in sys.path:
+    sys.path.insert(0, str(SRC))
+
 from x_reader.cli import main
 
 
