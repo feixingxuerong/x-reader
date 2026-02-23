@@ -1,13 +1,12 @@
 from __future__ import annotations
 
-from dataclasses import asdict
-from typing import Any, Dict, Optional
+from typing import Any, Dict
 
 from .client import FxTwitterClient
-from .formatter import to_markdown
 from .parser import parse_tweet_payload
+from .renderer import to_markdown
 from .storage import Storage
-from .urls import extract_tweet_id, to_fxembed_url
+from .url_utils import extract_tweet_id, get_fxembed_url
 
 
 class XReader:
@@ -21,7 +20,7 @@ class XReader:
         return extract_tweet_id(url)
 
     def get_fxembed_url(self, url: str) -> str:
-        return to_fxembed_url(url)
+        return get_fxembed_url(url)
 
     def fetch_tweet(self, url: str):
         tid = extract_tweet_id(url)
@@ -45,7 +44,7 @@ class XReader:
         if not parsed:
             return None
 
-        filename = f"tweet_{parsed.id}"
+        filename = f"tweet_{parsed['id']}"
 
         if json_save:
             self.storage.save_json(filename, data)
