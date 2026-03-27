@@ -1,113 +1,71 @@
-# 🐦 X-Reader
+# x-reader
 
-X/Twitter 内容阅读器 - 自动嵌入 Discord + 保存 Markdown
-
-<p align="center">
-
-![Python](https://img.shields.io/badge/Python-3.8+-FFD43B?style=flat&logo=python)
-![License](https://img.shields.io/badge/License-MIT-FF69B4)
-![Platform](https://img.shields.io/badge/Platform-Discord-5865F2)
-
-</p>
-
----
+X/Twitter 内容阅读器：支持将链接转换为 Discord 可预览链接，并抓取内容保存为 JSON / Markdown。
 
 ## ✨ 特性
 
-- 🐦 **推文抓取** - 支持普通推文、长推文、X Article
-- 📱 **Discord 嵌入** - 自动转换为 FxEmbed 格式
-- 💾 **Markdown 保存** - 自动保存为高质量 Markdown
-- 🔍 **智能解析** - 提取正文、作者、统计、媒体
+- 🧩 **模块化架构**：`src/x_reader/*` 按职责拆分（CLI、解析、渲染、存储、Bot）
+- 🔗 **FxEmbed 转换**：`x.com` / `twitter.com` 自动转换为 `fixupx.com` / `fxtwitter.com`
+- 💾 **内容落盘**：原始 JSON + Markdown 输出
+- 🤖 **Discord Bot**：自动识别消息中的 X/Twitter 链接，支持 `xembed / xfetch / xinfo`
+- ✅ **单元测试**：`tests/test_*.py`
 
----
-
-## 🚀 快速开始
-
-### 安装
+## 安装
 
 ```bash
-pip install requests beautifulsoup4
+python3 -m pip install -r requirements.txt
 ```
 
-### 使用
+## CLI 用法
+
+兼容旧入口：
 
 ```bash
-# 获取嵌入链接
 python3 fetch.py --embed --url "https://x.com/user/status/123"
-
-# 保存为 Markdown
 python3 fetch.py --url "https://x.com/user/status/123" --markdown
 ```
 
----
+也可直接调用模块：
 
-## 📖 功能说明
-
-### 功能一：Discord 嵌入
-
-在 Discord 中粘贴 X/Twitter 链接，自动嵌入预览。
-
-```
-原始: https://twitter.com/user/status/123456
-嵌入: https://fxtwitter.com/user/status/123456
+```bash
+PYTHONPATH=src python3 -m x_reader.cli --embed --url "https://x.com/user/status/123"
 ```
 
-### 功能二：Markdown 保存
+## Discord Bot
 
-自动获取、解析并保存推文内容。
+兼容旧入口：
 
-**保存内容：**
-- 推文正文
-- 作者信息
-- 统计数据
-- 时间戳
-
-**保存位置：**
-- `data/markdown/` - Markdown 文件
-- `data/json/` - 原始 JSON 数据
-
----
-
-## 🎯 示例
-
-```python
-from fetch import XReader
-
-reader = XReader()
-
-# 获取推文
-parsed = reader.save("https://x.com/user/status/123", markdown=True)
-print(reader.to_markdown(parsed))
+```bash
+DISCORD_TOKEN=your_token python3 bot.py
 ```
 
----
+## 测试
 
-## 📁 项目结构
-
+```bash
+python3 -m unittest discover -s tests -p "test_*.py"
 ```
+
+## 项目结构
+
+```text
 x-reader/
-├── fetch.py      # 核心抓取脚本
-├── SKILL.md      # OpenClaw Skill
-├── README.md     # 本文件
-└── data/        # 保存的数据
-    ├── markdown/
-    └── json/
+├── bot.py                  # 兼容 wrapper（委托到 src/x_reader/discord_bot.py）
+├── fetch.py                # 兼容 wrapper（委托到 src/x_reader/cli.py）
+├── requirements.txt
+├── src/
+│   └── x_reader/
+│       ├── __init__.py
+│       ├── cli.py
+│       ├── client.py
+│       ├── discord_bot.py
+│       ├── parser.py
+│       ├── reader.py
+│       ├── renderer.py
+│       ├── storage.py
+│       └── url_utils.py
+└── tests/
+    ├── test_cli.py
+    ├── test_parser_renderer.py
+    ├── test_reader_save.py
+    └── test_url_utils.py
 ```
-
----
-
-## 🤝 贡献
-
-欢迎提交 Issue 和 Pull Request！
-
----
-
-## 📝 License
-
-MIT License
-
----
-
-<p align="center">
-  Made with ❤️ by <a href="https://github.com/feixingxuerong">爱弥斯</a>
-</p>
